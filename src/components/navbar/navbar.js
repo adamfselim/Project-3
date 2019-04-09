@@ -1,18 +1,20 @@
-import React from "react"
+import React from "react";
+import "./navbar.css";
+
 export default function Navbar() {
     return (
-        <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+        <ul id="navbackground" className="nav justify-content-center">
+        <li className="nav-item">
+          <a className="nav-link active navwhite"  href="#">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Map</a>
+        <li className="nav-item">
+          <a className="nav-link navwhite" href="#">Map</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Volunteer</a>
+        <li className="nav-item">
+          <a className="nav-link navwhite" href="#">Volunteer</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+        <li className="nav-item">
+          <a className="nav-link navwhite" href="#">Contact</a>
         </li>
       </ul>
     )
