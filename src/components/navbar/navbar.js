@@ -19,9 +19,7 @@ export default function Navbar() {
       </li>
     </ul>
     <h1>Gleam Globe</h1>
-    <backgroundimage>
-
-    </backgroundimage>
+  
   </div>
   )
 }
