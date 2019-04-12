@@ -9,16 +9,16 @@ export default function Navbar() {
         <a class="nav-link active navwhite container" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link navwhite" href="#">Volunteer</a>
+        <a class="nav-link navwhite" href="/volunteer">Volunteer</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link navwhite" href="#">Map</a>
+        <a class="nav-link navwhite" href="map">Map</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link navwhite" href="#">Contact</a>
+        <a class="nav-link navwhite" href="/contact">Contact</a>
       </li>
     </ul>
-    <h1>Gleam Globe</h1>
+   
   
   </div>
   )
