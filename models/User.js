@@ -1,5 +1,7 @@
 
 //Setting up database using mySQL
+
+//Table for user information
 module.exports = function(sequelize, Sequelize) {
 
 	var User = sequelize.define('user', {
