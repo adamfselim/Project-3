@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from './logo.svg';
@@ -6,13 +7,19 @@ import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
 import Wastereduction from './pages/wastereduction/waste';
+import Calendar from "./components/calendar/Calendar";
+import "./App.css";
 
 
-class App extends Component {
+//new calendar component code
+
+
+class App extends React.Component {
   render() {
     return (
      <Router>
       <div className="App">
+
        <Navbar />
         <Switch>
         <Route exact path="/" component={Mainpage} />
@@ -22,6 +29,10 @@ class App extends Component {
         <Route exact path="/wastereduction" component={Wastereduction} />
         </Switch>
        
+        <main>
+          <Calendar />
+        </main>
+
       </div>
  </Router>
     );
@@ -29,3 +40,4 @@ class App extends Component {
 }
 
 export default App;
+
