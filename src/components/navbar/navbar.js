@@ -1,24 +1,26 @@
 import React from "react";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
-export default function Navbar() {
+
+export const Navbar=() => {
   return (<div>
     
-    <ul id="navbackground" class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active navwhite container" href="#">Home</a>
+    <ul id="navbackground" className="nav justify-content-end">
+      <li className="nav-item">
+        <Link className="nav-link active navwhite container" to="/">Home</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link navwhite" href="/volunteer">Volunteer</a>
+      <li className="nav-item">
+        <Link className="nav-link navwhite" to="/volunteer">Volunteer</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link navwhite" href="map">Map</a>
+      <li className="nav-item">
+        <Link className="nav-link navwhite" to="/map">Map</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link navwhite" href="/contact">Contact</a>
+      <li className="nav-item">
+        <Link className="nav-link navwhite" to="/contact">Contact</Link>
       </li>
-      <li class="nav-item">
-      <a class="nav-link navwhite" href="/contact">Reduce Waste</a>
+      <li className="nav-item">
+      <Link className="nav-link navwhite" to="/reducewaste">Reduce Waste</Link>
     </li>
     </ul>
    
@@ -26,3 +28,4 @@ export default function Navbar() {
   </div>
   )
 }
+export default Navbar; 
