@@ -17,6 +17,9 @@ export default function Navbar() {
       <li class="nav-item">
         <a class="nav-link navwhite" href="/contact">Contact</a>
       </li>
+      <li class="nav-item">
+      <a class="nav-link navwhite" href="/contact">Reduce Waste</a>
+    </li>
     </ul>
    
   

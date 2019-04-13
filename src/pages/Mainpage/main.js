@@ -8,10 +8,6 @@ export default function Mainpage() {
        <div className="imagecard col-md-8 mx-auto">
        <h2> this is the text</h2>
        </div>
-
-
-    
-        
         
         </div>)
 }

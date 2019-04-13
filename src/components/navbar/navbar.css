@@ -1,10 +1,10 @@
-#navbackground{
+/* #navbackground{
 background-color: #455A64;
 padding: 1.5pc;
-}
+} */
 
 .navwhite{
-   color: #fff;
+   color: #757575;
    font-family: 'Prata', serif;
    font-size: .75pc;
 }
