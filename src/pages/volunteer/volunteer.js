@@ -1,10 +1,12 @@
 import React from "react";
 import "../../components/navbar/navbar";
-import "../../components/images/"
+import "../../components/images/";
 import "./map.css";
+import {Card};
 
 export default function Volunteer() {
     return(<div>
+   
        <div className="imagecard col-md-8 mx-auto">
        <h2> this is the text</h2>
        </div>
