@@ -3,7 +3,7 @@ import React from "react";
 import "./volunteer.css";
 import Card from "../../components/card/card";
 import Navbar from '../../components/navbar/navbar';
-import volunteerImg from '../../components/images/recycle-20525_640.jpg';
+import volunteerImg from '../../components/images/volunteer.jpg';
 
 export const Volunteer = ()  => {
    return(
@@ -15,7 +15,7 @@ export const Volunteer = ()  => {
                 additional content. This content is a little bit longer.
             </p>
 
-            <Card />
+           <Card />
         </div>
     );
   

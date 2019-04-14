@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../navbar/navbar';
+
 
 
 export const Card = (props) => (
@@ -13,7 +13,7 @@ export const Card = (props) => (
         <div className="bg-dark text-white">
             <img src={props.src} alt="Card image" />
             <div className="Overlay">
-            <Navbar/>
+            
                 <h1>{props.title}</h1>
                 <p>
                     This is a wider card with supporting text below as a natural lead-in to
