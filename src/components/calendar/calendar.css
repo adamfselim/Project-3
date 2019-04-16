@@ -24,11 +24,11 @@
 
 :root {
   --main-color: #199087;
-  --text-color: #777;
-  --text-color-light: #ccc;
-  --border-color: #eee;
+  --text-color: #000000!important; 
+  --text-color-light: #000000;
+  --border-color: #000000;
   --bg-color: #f9f9f9;
-  --neutral-color: #fff;
+  --neutral-color: #000;
   
 }
 
@@ -41,7 +41,7 @@
 
 body {
   font-family: 'Prata', 'serif', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  text-shadow: 1px 1px #777;
+  text-shadow: 1px 1px #199087;
     font-size: 1em;
     font-weight: 300;
     line-height: 1.5;

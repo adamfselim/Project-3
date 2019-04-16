@@ -4,23 +4,19 @@ import "./volunteer.css";
 import Card from "../../components/card/card";
 import Navbar from '../../components/navbar/navbar';
 import volunteerImg from '../../components/images/volunteer.jpg';
+import Calendar from '../../components/calendar/Calendar';
+import '../../components/calendar/calendar.css';
 
+export const Volunteer = () => {
+    return (
+        <div className="overlay volunteerImage">
 
-export const Volunteer = ()  => {
-   return(
-        <div className="Overlay"  style={{backgroundImage:`url(${volunteerImg})`}}>
-           
-            <h1>Dude wat?</h1>
-            <p>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-            </p>
-
-           <Card />
-        
+            <Card />
+            <h2>Register to Volunteer and help our community!</h2>
+            <Calendar />
         </div>
     );
-  
+
 };
 
 export default Volunteer; 
