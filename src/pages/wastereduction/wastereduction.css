@@ -1,6 +1,5 @@
 .earthdayImage {
     background-image: url('../../components/images/earthmonth.png');
-   
 }
 
 .overlay{
@@ -10,6 +9,7 @@
     padding: 7em;
     min-height: 100vh;
     background-size: auto 100%;
+
   
 
     
