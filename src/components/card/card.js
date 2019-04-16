@@ -11,7 +11,7 @@ export const Card = (props) => (
         </div>
        
         <div className="bg-dark text-white">
-            <div className="volunteerImage">
+            <div className={props.cardImage}>
             
                 <h1>{props.title}</h1>
                 

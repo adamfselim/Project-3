@@ -1,0 +1,29 @@
+.earthdayImage {
+    background-image: url('../../components/images/earthmonth.png');
+   
+}
+
+.overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 7em;
+    min-height: 100vh;
+    background-size: auto 100%;
+  
+
+    
+  }
+
+  .overlay::after {
+    
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+#wasteImg {
+    
+    width: 60vw;
+    box-shadow: 0 0 15px grey;
+}

@@ -1,11 +1,23 @@
 import React from "react";
-import "../../components/navbar/navbar";
-import "../../components/images/earthmonth.png"
+import "../../components/images/earthmonth.png";
+import Card from '../../components/card/card';
+import './wastereduction.css';
+import wasteImg from '../../components/images/earthmonth.png';
+import Navbar from "../../components/navbar/navbar";
 
 
-export default function wastereduction() {
-    return(<div>
+export const Wastereduction = () => {
+    return(
+    <div>
+    
         
+        <div className="overlay earthdayImage">
+        <Navbar />
+        <img src={wasteImg} alt="wasteImg" id="wasteImg" class="center"/>
+
+
         </div>
+    </div>
     )
-    }
+    };
+    export default Wastereduction;

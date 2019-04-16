@@ -20,7 +20,7 @@ export const Navbar=() => {
         <Link className="nav-link navwhite" to="/contact">Contact</Link>
       </li>
       <li className="nav-item">
-      <Link className="nav-link navwhite" to="/reducewaste">Reduce Waste</Link>
+      <Link className="nav-link navwhite" to="/wastereduction">Reduce Waste</Link>
     </li>
     </ul>
    

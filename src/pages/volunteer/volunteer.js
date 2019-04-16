@@ -1,5 +1,4 @@
 import React from "react";
-// import "../../components/images/";
 import "./volunteer.css";
 import Card from "../../components/card/card";
 import Navbar from '../../components/navbar/navbar';
