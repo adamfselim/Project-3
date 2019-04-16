@@ -1,4 +1,4 @@
-body {
+.mainImg {
     background-image: url("../../components/images/person.jpg");
     background-size: cover;
     
@@ -6,7 +6,7 @@ body {
 .imagecard{
     /* background-image: url("../../components/images/person.jpg");
      */
-     height: 80%;
+     height: 70%;
      background: orangered;
      border: 1px solid black;
 

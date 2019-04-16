@@ -8,7 +8,7 @@ import '../../components/calendar/calendar.css';
 
 export const Volunteer = () => {
     return (
-        <div className="overlay volunteerImage">
+        <div className="overlay volunteerImg">
 
             <Card />
             <h2>Register to Volunteer and help our community!</h2>
