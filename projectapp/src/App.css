@@ -1,6 +1,10 @@
 .card {
     background-color: #199087;
     opacity: 0.9;
+    width: 700px;
+    height: 250px;
+    display: flex;
+    position: absolute;
 }
 
 .card-body {
