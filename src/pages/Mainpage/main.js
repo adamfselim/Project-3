@@ -12,8 +12,6 @@ export const Main = ()  => {
              <Card 
              cardImage="mainImg"
              />
-            
-
           
         </div>
     );

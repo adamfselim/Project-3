@@ -8,17 +8,11 @@ import Navbar from "../../components/navbar/navbar";
 
 export const Wastereduction = () => {
     return (
-        <div>
-            
-
-            <div className="overlay earthdayImage">
-                <div className="">
-                    <Navbar />
-                    <img src={wasteImg} alt="wasteImg" id="wasteImg" class="center" />
-
-                </div>
-            </div>
-        </div>
+        <div className="overlay wasteImg"  style={{backgroundImage:`url(${wasteImg})`}}>
+             <Card>
+             <img src={wasteImg} alt='tips' className="tips" />
+             </Card>
+        </div> 
     )
 };
 export default Wastereduction;

@@ -1,18 +1,17 @@
-.earthdayImage {
+.wasteImg {
     background-image: url('../../components/images/earthmonth.png');
+    background-size: cover;
+    height: 100vh;
+
 }
 
 .overlay{
     position: relative;
     top: 0;
     left: 0;
-    padding: 7em;
+    padding: 7vw;
     min-height: 100vh;
-    background-size: auto 100%;
-
-  
-
-    
+    background-size: auto 100%;  
   }
 
   .overlay::after {
@@ -22,8 +21,7 @@
     clear: both;
   }
 
-#wasteImg {
+  .tips{
+    width: 100%;
     
-    width: 60vw;
-    box-shadow: 0 0 15px grey;
-}
+  }
