@@ -7,7 +7,7 @@ import Card from "../../components/card/card"
 export const EventMap = () => {
     return(
     <div>
-       <div className="overlay mapImg">
+       <div id='backgroundimage2' className="overlay mapImg">
        
        <Card 
        cardImage="mapImg"

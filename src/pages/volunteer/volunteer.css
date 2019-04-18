@@ -1,5 +1,11 @@
     .volunteerImg {
-      background-image: url('../../components/images/volunteerpage.jpg');
+      background-image: url('../../components/images/boxedwater.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: auto;
+      width: 100%;
+      
     }
 
     .overlay{
@@ -17,8 +23,14 @@
       display: block;
       clear: both;
     }
-    .calendar{
-      opacity: 0.6;
+    calendar{
+      opacity: 0.2;
     
     }
-    
+    #backgroundimage1{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+  
+  }

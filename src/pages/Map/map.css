@@ -17,4 +17,10 @@
     display: block;
     clear: both;
   }
-  
+  #backgroundimage2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
