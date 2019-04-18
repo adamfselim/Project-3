@@ -1,23 +1,21 @@
 import React from "react";
 import "../../components/navbar/navbar";
-import mapImg from '../../components/images/earth.jpg'
+import "../../components/images/earth.jpg"
 import "./map.css";
-import Card from "../../components/card/card"
+import mapImg from "../../components/images/earth.jpg";
+import Card from "../../components/card/card";
 
-export const EventMap = () => {
-    return(
-    <div>
-       <div id='backgroundimage2' className="overlay mapImg">
-       
-       <Card 
-       cardImage="mapImg"
-       />
-       </div>
+export const Eventmap = ()  => {
+   return(
+        <React.Fragment>
+          <div id='backgroundimage5' className="overlay"  style={{backgroundImage:`url(${mapImg})`}}></div>
+          <div id="contentCard"><Card cardImage="mapImg"/></div>
+          
+        </React.Fragment>
+    );
+  
+};
+
+export default Eventmap; 
 
 
-    
-        
-        
-    </div>)
-}
-export default EventMap;
