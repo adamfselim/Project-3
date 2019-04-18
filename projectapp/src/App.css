@@ -1,25 +1,9 @@
-.card {
-    background-color: #199087;
-    opacity: 0.9;
-    width: 700px;
-    height: 250px;
-    display: flex;
-    position: absolute;
+#navbarNav {
+
 }
 
-.card-body {
-    text-align: center;
-}
-
-h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #455A64;
-    text-decoration: underline;
-}
-
-#addy {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+#home {
+    
 }
 
 
