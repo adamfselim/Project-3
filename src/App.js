@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import logo from './logo.svg';
-
+import Eventmap from './pages/Map/eventmap';
 import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
@@ -32,7 +32,7 @@ class App extends React.Component {
                 <Route exact path="/" component={Mainpage} />
                 <Route exact path="/volunteer" component={Volunteer} />
                 <Route exact path="/contact" component={Contact} />
-                <Route exact path="/map" component={Contact} />
+                <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/wastereduction" component={Wastereduction} />
               </Switch>
             </div>

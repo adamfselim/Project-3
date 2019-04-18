@@ -3,3 +3,8 @@
     background-size: auto;
     background-color: #fff;
 }
+
+.cardBackground {
+    box-shadow: 0 0 15px black;
+    min-height: 70vh;
+}
