@@ -1,7 +1,6 @@
-/* #navbackground{
-background-color: #455A64;
-padding: 1.5pc;
-} */
+#navbackground{
+opacity: 0.5;
+}
 
 .navwhite{
    color: #000;
@@ -19,5 +18,7 @@ padding: 1.5pc;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    
   }
+  
  

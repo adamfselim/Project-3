@@ -28,7 +28,7 @@
   --text-color-light: #000000;
   --border-color: #000000;
   --bg-color: #f9f9f9;
-  --neutral-color: #000;
+  --neutral-color: #f9f9f9;
   
 }
 
@@ -225,7 +225,7 @@ main {
 }
 
 .calendar .body .cell:hover .bg, .calendar .body .selected .bg  {
-  opacity: 0.05;
+  opacity: 0.7;
   transition: .5s ease-in;
 }
 
