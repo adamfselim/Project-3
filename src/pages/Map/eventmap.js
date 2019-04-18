@@ -9,8 +9,9 @@ export const EventMap = () => {
     <div>
        <div className="overlay mapImg">
        
-       <Card />
-       
+       <Card 
+       cardImage="mapImg"
+       />
        </div>
 
 

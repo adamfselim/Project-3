@@ -2,7 +2,7 @@ import React from "react";
 import "./volunteer.css";
 import Card from "../../components/card/card";
 import Navbar from '../../components/navbar/navbar';
-import volunteerImg from '../../components/images/volunteer.jpg';
+import volunteerImg from '../../components/images/volunteerpage.jpg';
 import Calendar from '../../components/calendar/Calendar';
 import '../../components/calendar/calendar.css';
 
@@ -14,7 +14,7 @@ export const Volunteer = () => {
             cardImage="volunteerImg"
             >
             <Calendar />
-            <div>hello</div>
+            
             </Card>
             
         </div>

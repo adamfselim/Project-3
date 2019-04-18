@@ -1,11 +1,12 @@
 #navbackground{
-opacity: 0.5;
+opacity: 0.9;
 }
 
-.navwhite{
+.navblack{
    color: #000;
    font-family: 'Prata', serif;
    font-size: .75pc;
+   
 }
 /* h1 {
     font-family: 'Prata', serif;
