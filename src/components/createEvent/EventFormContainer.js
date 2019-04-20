@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 /* Import Components */
-import Input from '../components/EventInput/Input';
-import Button from '../components/buttons/Button';
+import Input from '../EventInput/Input';
+import Button from '../buttons/Button';
 import "./EventFormContainer.css";
 
 class EventFormContainer extends Component {
