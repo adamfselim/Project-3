@@ -1,19 +1,12 @@
 
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import logo from './logo.svg';
-
-import Mainpage from './pages/Mainpage/main';
+import Mainpage from './pages/mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
-import Wastereduction from './pages/wastereduction/waste';
-import Calendar from "./components/calendar/Calendar";
+import EventMap from './pages/map/eventmap';
+import Wastereduction from './pages/wastereduction/wastereduction';
 import "./App.css";
-import wastereduction from "./components/images/earthmonth.png";
-
-
-
-//new calendar component code
 
 
 class App extends React.Component {
@@ -32,7 +25,7 @@ class App extends React.Component {
                 <Route exact path="/" component={Mainpage} />
                 <Route exact path="/volunteer" component={Volunteer} />
                 <Route exact path="/contact" component={Contact} />
-                <Route exact path="/map" component={Contact} />
+                <Route exact path="/map" component={EventMap} />
                 <Route exact path="/wastereduction" component={Wastereduction} />
               </Switch>
             </div>

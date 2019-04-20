@@ -11,7 +11,7 @@ export const Card = (props) => (
         </div>
        
         <div className="bg-dark text-white">
-            <img src={props.src} alt="Card image" />
+            <img src={props.src} alt="Card" />
             <div className="Overlay">
             
                 <h1>{props.title}</h1>
