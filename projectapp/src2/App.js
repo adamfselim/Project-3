@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-//new calendar component code
-import React from "react";
-import Calendar from "./components/calendar/Calendar";
-import "./App.css";
-=======
 
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -21,18 +15,10 @@ import wastereduction from "./components/images/earthmonth.png";
 
 //new calendar component code
 
->>>>>>> 799eb5d130ad410f1f076ebf6a87ce620bfca0d5
 
 class App extends React.Component {
   render() {
     return (
-<<<<<<< HEAD
-      <div className="App">
-        <main>
-          <Calendar />
-        </main>
-      </div>
-=======
       <Router>
         <div className="App">
           <div>
@@ -53,7 +39,6 @@ class App extends React.Component {
           </div>
         </div>
       </Router>
->>>>>>> 799eb5d130ad410f1f076ebf6a87ce620bfca0d5
     );
   }
 }
