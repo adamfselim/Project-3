@@ -5,22 +5,22 @@ import { Link } from "react-router-dom";
 
 export const Navbar=() => {
   return (<div>
-    
+    <Link className="gleam" to="/">Gleam Globe</Link>
     <ul id="navbackground" className="nav justify-content-end">
-      <li className="nav-item">
-        <Link className="nav-link active navwhite container" to="/">Home |</Link>
+    <li className="nav-item">
+        <Link className="nav-link active navblack container" to="/">Home</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navwhite" to="/volunteer">Volunteer |</Link>
+        <Link className="nav-link navblack" to="/volunteer">Volunteer</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navwhite" to="/map">Map |</Link>
+        <Link className="nav-link navblack" to="/map">Map</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navwhite" to="/contact">Contact |</Link>
+        <Link className="nav-link navblack" to="/contact">Contact</Link>
       </li>
       <li className="nav-item">
-      <Link className="nav-link navwhite" to="/wastereduction">Reduce Waste</Link>
+      <Link className="nav-link navblack" to="/wastereduction">Reduce Waste</Link>
     </li>
     </ul>
    
