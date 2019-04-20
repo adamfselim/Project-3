@@ -1,8 +1,11 @@
 .imagecard{
-    background-image: "volunteer.jpg";
+    /* background-image: "volunteer.jpg"; */
     background-size: auto;
-    background-color: black;
+    background-color: #fff;
+    opacity: 0.5;
 }
-body{
-    background-color: aqua;
+
+.cardBackground {
+    box-shadow: 0 0 15px silver;
+    min-height: 70vh;
 }

@@ -4,13 +4,14 @@ import Navbar from '../../components/navbar/navbar';
 
 export const Card = (props) => (
 
-    <div>
-        
+    <div className={`cardBackground ${props.cardImage}`}>
+
         <div className="imagecard">
-         <Navbar />
+            <Navbar />
         </div>
-       
+
         <div className="bg-dark text-white">
+<<<<<<< HEAD
             <img src={props.src} alt="Card" />
             <div className="Overlay">
             
@@ -20,6 +21,12 @@ export const Card = (props) => (
                     additional content. This content is a little bit longer.
                 </p>
                
+=======
+            <div>
+                <div> {props.children}
+                </div>
+
+>>>>>>> 799eb5d130ad410f1f076ebf6a87ce620bfca0d5
             </div>
         </div>
     </div>

@@ -1,13 +1,17 @@
-/* #navbackground{
-background-color: #455A64;
-padding: 1.5pc;
-} */
+#navbackground{
+opacity: 0.9;
+}
 
-.navwhite{
-   color: #757575;
+.navblack{
+   color: #000;
    font-family: 'Prata', serif;
+<<<<<<< HEAD
    font-size: 25px;
    padding-top: 12px;
+=======
+   font-size: .75pc;
+   
+>>>>>>> 799eb5d130ad410f1f076ebf6a87ce620bfca0d5
 }
 /* h1 {
     font-family: 'Prata', serif;
@@ -20,7 +24,17 @@ padding: 1.5pc;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+<<<<<<< HEAD
     height: 60px;
+=======
+    
+  }
+  .gleam{
+     color:black;
+     text-align: left;
+     letter-spacing: 3px;
+     font-size: 40px;
+>>>>>>> 799eb5d130ad410f1f076ebf6a87ce620bfca0d5
   }
  
   
