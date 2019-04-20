@@ -26,5 +26,10 @@ opacity: 0.9;
      text-align: left;
      letter-spacing: 3px;
      font-size: 40px;
+     position: center!important;
   }
- 
+ /* .btn{
+    text-align: left;
+    font-size: 25px;
+
+ } */
