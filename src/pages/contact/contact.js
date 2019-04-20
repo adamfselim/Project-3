@@ -9,7 +9,7 @@ export const Contact = () => {
     return (
         <React.Fragment>
           <div id='backgroundimage4' className="overlay"  style={{backgroundImage:`url(${contactImg})`}}></div>
-          <div id="contentCard"><Card cardImage="contactImg"/></div>
+          <div id="contentCard"><Card cardImage="contactImg" /></div>
           
         </React.Fragment>
     );
