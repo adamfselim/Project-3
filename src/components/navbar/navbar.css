@@ -5,8 +5,6 @@ opacity: 0.9;
 .navblack{
    color: #000;
    font-family: 'Prata', serif;
-   font-size: 25px;
-   padding-top: 12px;
    font-size: .75pc;
    
 }
@@ -16,7 +14,6 @@ opacity: 0.9;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-    height: 60px;
     
   }
   .gleam{
@@ -26,6 +23,8 @@ opacity: 0.9;
      font-size: 40px;
      position: center!important;
   }
- 
-  
- 
+ /* .btn{
+    text-align: left;
+    font-size: 25px;
+
+ } */
