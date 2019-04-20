@@ -7,7 +7,7 @@ export const Navbar=() => {
   return (<div>
     <Link className="gleam" to="/">Gleam Globe</Link>
     <ul id="navbackground" className="nav justify-content-end">
-      <li className="nav-item">
+    <li className="nav-item">
         <Link className="nav-link active navblack container" to="/">Home</Link>
       </li>
       <li className="nav-item">
