@@ -9,9 +9,11 @@
     box-shadow: 0 0 15px silver;
     min-height: 70vh;
 }
-.cardtext{
+/* .cardtext{
     color: black;
     text-shadow: none;
     background-color: white; 
     filter:opacity(.5);
-}
+ add className="cardtext" to card.js to make it look pretty 
+
+} */
