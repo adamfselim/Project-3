@@ -9,7 +9,13 @@ export const Main = ()  => {
    return(
         <React.Fragment>
           <div id='backgroundimage' className="overlay"  style={{backgroundImage:`url(${mainImg})`}}></div>
-          <div id="contentCard"><Card cardImage="mainImg"/></div>
+          <div id="contentCard">
+          <Card 
+           cardImage="mainImg">
+           <h3>“The products of our own creation are purely a reflection of ourselves.”</h3>
+          
+           </Card> 
+          </div>
           
         </React.Fragment>
     );

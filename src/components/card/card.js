@@ -10,7 +10,7 @@ export const Card = (props) => (
             <Navbar />
         </div>
 
-        <div className="bg-dark text-white">
+        <div className="cardtext">
             <div>
                 <div> {props.children}
                 </div>
