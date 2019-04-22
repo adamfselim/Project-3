@@ -10,6 +10,7 @@ import Wastereduction from './pages/wastereduction/waste';
 import Calendar from "./components/calendar/Calendar";
 import "./App.css";
 import wastereduction from "./components/images/earthmonth.png";
+import MapContainer from './components/map/MapContainer';
 
 
 
