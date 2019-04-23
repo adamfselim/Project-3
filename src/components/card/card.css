@@ -1,19 +1,19 @@
-.imagecard{
-    /* background-image: "volunteer.jpg"; */
+  .imagecard{
     background-size: auto;
     background-color: #fff;
     opacity: 0.5;
 }
 
 .cardBackground {
-    box-shadow: 0 0 15px silver;
+    box-shadow: 0 0 25px silver;
     min-height: 70vh;
 }
-/* .cardtext{
+
+.cardtext{
     color: black;
     text-shadow: none;
-    background-color: white; 
+    background-color: black; 
     filter:opacity(.5);
- add className="cardtext" to card.js to make it look pretty 
 
-} */
+}
+
