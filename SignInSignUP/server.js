@@ -28,6 +28,7 @@ const session    = require('express-session');
 const bodyParser = require('body-parser');
 // const env = require('dotenv').load();
 const env = require('dotenv').config()
+const routes = require("./routes");
 
 //For Body Parser
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -37,7 +38,7 @@ app.use(bodyParser.json());
 app.use(session({ secret: 'keyboard cat',resave: true, saveUninitialized:true})); // session secret
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
-
+app.use(routes)
 //Models
 var models = require("./models");
 
@@ -45,7 +46,7 @@ var models = require("./models");
 models.sequelize.sync().then(function() {
 
    console.log('Nice! Database looks fine')
-
+   
 }).catch(function(err) {
 
    console.log(err, "Something went wrong with the Database Update!")
