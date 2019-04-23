@@ -14,6 +14,7 @@ export const Main = ()  => {
 
           <Card 
           cardImage="mainImg">
+          
             <h3>“The products of our own creation are purely a reflection of ourselves.”</h3>
      
           </Card> 
