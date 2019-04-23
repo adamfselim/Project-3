@@ -27,7 +27,7 @@ class App extends React.Component {
             
             </div>
             
-            <div className="bg-dark text-white">
+            <div className="bg-primary text-white">
               <Switch>
                 <Route exact path="/" component={Mainpage} />
                 <Route exact path="/volunteer" component={Volunteer} />
