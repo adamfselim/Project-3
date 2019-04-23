@@ -7,16 +7,19 @@ import Card from "../../components/card/card";
 
 export const Main = ()  => {
    return(
-        <React.Fragment>
-          <div id='backgroundimage' className="overlay"  style={{backgroundImage:`url(${mainImg})`}}></div>
-          <div id="contentCard">
+    <React.Fragment>
+      <div id='backgroundimage' className="overlay"  style={{backgroundImage:`url(${mainImg})`}}></div>
+        <div id="contentCard">
+          <div id="cardtext">
+
           <Card 
-           cardImage="mainImg">
-           <h3>“The products of our own creation are purely a reflection of ourselves.”</h3>
-          
-           </Card> 
-          </div>
-          
+          cardImage="mainImg">
+            <h3>“The products of our own creation are purely a reflection of ourselves.”</h3>
+     
+          </Card> 
+        </div>
+      </div>
+       
         </React.Fragment>
     );
   
