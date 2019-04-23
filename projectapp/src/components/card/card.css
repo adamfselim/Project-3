@@ -10,10 +10,12 @@
 }
 
 .cardtext{
-    color: black;
+    color: rgb(0, 0, 0);
     text-shadow: none;
     background-color: black; 
-    filter:opacity(.5);
-
+    filter:opacity(.7);
+    font-style: oblique;
+    font-weight: 600;
 }
+
 
