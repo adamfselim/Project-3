@@ -7,7 +7,7 @@ import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
 import EventMap from './pages/Map/eventmap';
-import Wastereduction from './pages/wastereduction/wastereduction';
+import Wastereduction from './pages/wastereduction/waste';
 import "./App.css";
 
 
