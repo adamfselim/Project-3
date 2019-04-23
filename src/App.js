@@ -7,10 +7,10 @@ import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
 import Wastereduction from './pages/wastereduction/waste';
-import Calendar from "./components/calendar/Calendar";
+// import Calendar from "./components/calendar/Calendar";
 import "./App.css";
-import wastereduction from "./components/images/earthmonth.png";
-import MapContainer from './components/map/MapContainer';
+// import wastereduction from "./components/images/earthmonth.png";
+// import MapContainer from './components/map/MapContainer';
 
 
 

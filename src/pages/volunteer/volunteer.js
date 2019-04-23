@@ -1,8 +1,8 @@
 import React from "react";
 import "./volunteer.css";
 import Card from "../../components/card/card";
-import Navbar from '../../components/navbar/navbar';
-import volunteerImg from '../../components/images/boxedwater.jpg';
+// import Navbar from '../../components/navbar/navbar';
+// import volunteerImg from '../../components/images/boxedwater.jpg';
 import Calendar from '../../components/calendar/Calendar';
 import '../../components/calendar/calendar.css';
 
