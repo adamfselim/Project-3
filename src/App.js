@@ -1,11 +1,12 @@
 
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Form } from 'react-router-dom';
 // import logo from './logo.svg';
 import Eventmap from './pages/Map/eventmap';
 import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
+import User from './pages/user/user';
 import Wastereduction from './pages/wastereduction/waste';
 import Calendar from "./components/calendar/Calendar";
 import "./App.css";
@@ -34,6 +35,7 @@ class App extends React.Component {
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/wastereduction" component={Wastereduction} />
+                <Route exact path="/user" component={User} />
               </Switch>
             </div>
           </div>

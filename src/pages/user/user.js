@@ -1,11 +1,11 @@
 import React from "react";
 import "../../components/navbar/navbar";
-import "../../components/images/Nature.jpg"
-import "./style.css";
+import "../../components/images/userpage.jpg";
+import "./user.css";
 import userImg from "../../components/images/userpage.jpg";
 import Card from "../../components/card/card";
-
-export const Main = ()  => {
+import { Link } from "react-router-dom";
+export const User = ()  => {
    return(
     <React.Fragment>
       <div id='backgroundimage' className="overlay"  style={{backgroundImage:`url(${userImg})`}}></div>
@@ -14,9 +14,8 @@ export const Main = ()  => {
 
           <Card 
           cardImage="userImg">
+        
           
-            <h3>“The products of our own creation are purely a reflection of ourselves.”</h3>
-     
           </Card> 
         </div>
       </div>
@@ -26,6 +25,6 @@ export const Main = ()  => {
   
 };
 
-export default Main; 
+export default User; 
 
 
