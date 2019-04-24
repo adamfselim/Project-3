@@ -34,6 +34,7 @@ class App extends Component {
                 <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/wastereduction" component={Wastereduction} />
                 <Route exact path="/user" component={User} />
+                
               </Switch>
             </div>
           </div>
