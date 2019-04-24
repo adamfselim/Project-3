@@ -8,16 +8,14 @@ import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
 import User from './pages/user/user';
 import Wastereduction from './pages/wastereduction/waste';
-import Calendar from "./components/calendar/Calendar";
+// import Calendar from "./components/calendar/Calendar";
 import "./App.css";
-import wastereduction from "./components/images/earthmonth.png";
+// import wastereduction from "./components/images/earthmonth.png";
+// import MapContainer from './components/map/MapContainer';
 
 
 
-//new calendar component code
-
-
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <Router>
