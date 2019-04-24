@@ -2,7 +2,7 @@ import React from "react";
 import "../../components/images/earthmonth.png";
 import './wastereduction.css';
 import wasteImg from '../../components/images/earthmonth.png';
-import Navbar from "../../components/navbar/navbar";
+// import Navbar from "../../components/navbar/navbar";
 
 
 export const Wastereduction = () => {
