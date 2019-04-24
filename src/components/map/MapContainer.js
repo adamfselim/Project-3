@@ -53,7 +53,7 @@ export class MapContainer extends Component {
           onClick={this.onMarkerClick} name={'Current Location.'} />
         <Marker
           onClick={this.onMarkerClick} name={'Title.'} position={{ lat: 33.349228, lng: -111.796241 }} image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66lw7_QqeRs0bf3UH_QFEblAwV0vpZatBgCds1mflDjdUGfGR'} address={'123 Fake St'} city={'Phoenix'} state={'AZ'} date={'05/09/2019'} time={'08:00'}/>
-        {/*{this.state.event.map( Tevent => (
+        {/* {this.state.event.map( Tevent => (
             <Marker 
             key={Tevent.id}
             position={{ lat: {Tevent.lat}, lng: {Tevent.lng} }}
@@ -68,7 +68,7 @@ export class MapContainer extends Component {
           onClose={this.onClose}>
           <div>
             <div style={divImageStyle}>
-              <img src={this.state.selectedPlace.image}/>
+              <img src={this.state.selectedPlace.image} alt={this.state.selectedPlace.name}/>
             </div>
             <div style={divInfoStyle}>
               <h4>{this.state.selectedPlace.name}</h4>
