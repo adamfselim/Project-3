@@ -6,17 +6,16 @@ import Eventmap from './pages/Map/eventmap';
 import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
+import EventMap from './pages/Map/eventmap';
 import Wastereduction from './pages/wastereduction/waste';
-import Calendar from "./components/calendar/Calendar";
+// import Calendar from "./components/calendar/Calendar";
 import "./App.css";
-import wastereduction from "./components/images/earthmonth.png";
+// import wastereduction from "./components/images/earthmonth.png";
+// import MapContainer from './components/map/MapContainer';
 
 
 
-//new calendar component code
-
-
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <Router>
@@ -27,7 +26,7 @@ class App extends React.Component {
             
             </div>
             
-            <div className="bg-primary text-white">
+            <div className="bg-dark text-white">
               <Switch>
                 <Route exact path="/" component={Mainpage} />
                 <Route exact path="/volunteer" component={Volunteer} />
