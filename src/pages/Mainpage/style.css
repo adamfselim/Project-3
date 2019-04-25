@@ -49,12 +49,14 @@
 } */
 
 #maincontent{
+    font-size: 20px;
     color: black;
     text-shadow: none;
     float:left; 
-    width: 80%;
+    width: 48%;
     background-color: white;
-    height: 400px;
+    height: 340px;
+    filter: opacity(.8);
     }
     
    
@@ -66,3 +68,12 @@
     filter:opacity(.5);
 }
  
+.waste2{
+    width: 400px;
+    height: 400px;
+    float: right;
+    height: 340px;
+    width: 48%;
+}
+
+

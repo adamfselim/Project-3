@@ -4,6 +4,7 @@ import "../../components/images/Nature.jpg"
 import "./style.css";
 import mainImg from "../../components/images/Nature.jpg";
 import Card from "../../components/card/card";
+import waste2 from "../../components/images/wasteimage2.png";
 
 
 export const Main = () => {
@@ -29,7 +30,7 @@ export const Main = () => {
                  and potentially used as a resource. We need to recognize that what is
                  routinely discarded may in fact be a reusable resource.
              </h5>
-
+              <img src={waste2} alt="waste2" className="waste2"/>
           </Card>
         </div>
       </div>
