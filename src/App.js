@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Form } from 'react-router-dom';
 // import logo from './logo.svg';
-import Eventmap from './pages/map/eventmap1';
+import Eventmap from './pages/map/eventmap';
 import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
