@@ -5,26 +5,26 @@ import "./user.css";
 import userImg from "../../components/images/userpage.jpg";
 import Card from "../../components/card/card";
 import { Link } from "react-router-dom";
-export const User = ()  => {
-   return(
+export const User = () => {
+  return (
     <React.Fragment>
-      <div id='backgroundimage' className="overlay"  style={{backgroundImage:`url(${userImg})`}}></div>
-        <div id="contentCard">
-          <div id="cardtext">
+      <div id='backgroundimage' className="overlay" style={{ backgroundImage: `url(${userImg})` }}></div>
+      <div id="contentCard">
+        <div id="cardtext">
 
-          <Card 
-          cardImage="userImg">
-        
-          
-          </Card> 
+          <Card
+            cardImage="userImg">
+
+
+          </Card>
         </div>
       </div>
-       
-        </React.Fragment>
-    );
-  
+
+    </React.Fragment>
+  );
+
 };
 
-export default User; 
+export default User;
 
 
