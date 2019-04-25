@@ -64,8 +64,12 @@ class EventFormContainer extends Component {
     });
   };
 
+  
+
   render() {
     return (
+
+      
 
       <form className="container-fluid" onSubmit={this.handleFormSubmit}>
 
