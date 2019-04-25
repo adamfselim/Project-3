@@ -27,11 +27,8 @@
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
-<<<<<<< HEAD
     "if-env": "^1.0.4",
-=======
     "google-maps-react": "^2.0.2",
->>>>>>> 0f5db709448c5e41b12d14a0671c80a83c6a2077
     "mysql": "^2.16.0",
     "mysql2": "^1.6.5",
     "passport": "^0.4.0",
