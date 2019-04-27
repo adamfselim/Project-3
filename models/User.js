@@ -1,23 +1,16 @@
 
-//Setting up database using mySQL
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
-//Table for user information
-module.exports = function(sequelize, Sequelize) {
-
-	var User = sequelize.define('user', {
-		id: { autoIncrement: true, primaryKey: true, type: Sequelize.INTEGER},
-		firstname: { type: Sequelize.STRING,notEmpty: true},
-		lastname: { type: Sequelize.STRING,notEmpty: true},
-		username: {type:Sequelize.TEXT},
-		title : {type:Sequelize.TEXT},
-        email: { type:Sequelize.STRING, validate: {isEmail:true} },
-        last_login: {type: Sequelize.INTEGER},
-		password : {type: Sequelize.STRING,allowNull: false }, 
-        last_login: {type: Sequelize.DATE},
-        status: {type: Sequelize.ENUM('active','inactive'),defaultValue:'active' }
-
+const userSchema = new Schema({
+	firstname: { type: String, required: true },
+	lastname: { type: String, required: true },
+	username: { type: String, required: true },
+	title: { type: String, required: true },
+	email: { type: String, required: true },
+	password: { type: String, required: true },
 });
 
-	return User;
+const User = mongoose.model("User", userSchema);
 
-}
+module.exports = User;
