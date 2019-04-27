@@ -51,7 +51,7 @@ const eventSeed = [
       "9:00am",
     street_address: "58 S San Marcos Pl"
   },
-  
+
 ];
 
 db.Event
@@ -65,3 +65,26 @@ db.Event
     console.error(err);
     process.exit(1);
   });
+
+const userSeed = [
+  {
+    firstname: "Bon",
+    lastname: "Jovi",
+    username:
+      "BonBon",
+    email: "BonJ@gmail.com",
+    password: 12345
+  }
+];
+
+  db.User
+    .remove({})
+    .then(() => db.User.collection.insertMany(userSeed))
+    .then(data => {
+      console.log(data.result.n + " records inserted!");
+      process.exit(0);
+    })
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
