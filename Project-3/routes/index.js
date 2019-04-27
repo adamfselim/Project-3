@@ -10,4 +10,12 @@ router.use(function(req, res) {
   res.sendFile(path.join(__dirname, "../../build/index.html"));
 });
 
+router.use(function(req, res) {
+  res.sendFile(path.join(__dirname, "../signup/src/SignUpForm"));
+});
+
+router.use(function(req, res) {
+  res.sendFile(path.join(__dirname, "../signup/src/SignInForm"));
+});
+
 module.exports = router;

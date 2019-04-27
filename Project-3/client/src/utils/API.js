@@ -17,6 +17,18 @@ export default {
     saveEvent: function(eventData) {
       console.log("API.js", eventData);
       return axios.post("/api/events", eventData);
+    },
+
+    addNewUser: function(user) {
+      return axios.post("/api/users/", user);
+    },
+    
+    getAllUsers: function(user) {
+      return axios.get("/api/users/?" + Object.keys(user).map(
+        (key) => {
+          return key + "=" + user[key]; 
+        }
+      ).join("&"));
     }
   };
   
