@@ -14,8 +14,8 @@ export const Volunteer = () => {
             
             <h2>Register to Volunteer and help our community!</h2>
             <Card cardImage="volunteerImg">
-            <CreateEvent />
-            <Calendar />
+             <Calendar />
+             <CreateEvent />
             </Card>
         </div>
     );

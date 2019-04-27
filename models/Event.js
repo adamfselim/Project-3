@@ -1,5 +1,5 @@
 //Setting up database using mySQL
-
+'use strict';
 //Table for new clean-up events, will store date of event, 
 //time of event, and street address of event
 module.exports = function(sequelize, Sequelize) {

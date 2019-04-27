@@ -68,7 +68,7 @@ export class MapContainer extends Component {
           onClose={this.onClose}>
           <div>
             <div style={divImageStyle}>
-              <img src={this.state.selectedPlace.image}/>
+              <img src={this.state.selectedPlace.image} alt={this.state.selectedPlace.name}/>
             </div>
             <div style={divInfoStyle}>
               <h4>{this.state.selectedPlace.name}</h4>

@@ -6,7 +6,6 @@ import Eventmap from './pages/Map/eventmap';
 import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
-import EventMap from './pages/Map/eventmap';
 import Wastereduction from './pages/wastereduction/waste';
 // import Calendar from "./components/calendar/Calendar";
 import "./App.css";
